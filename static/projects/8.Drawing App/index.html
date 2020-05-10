@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/start/jquery-ui.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <h1 class="title">Drawing App</h1>
+
+        <div class="input">
+
+            <div class="input-color">
+                <input type="color" list>
+            </div>
+
+            <div class="circle"></div>
+
+            <div class="input-thick">
+                <div class="slider"></div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <canvas class="paint"></canvas>
+        </div>
+
+        <div class="btn">
+            <span id="erase" class="button">Erase</span>
+            <span id="save" class="button">Save</span>
+            <span id="reset" class="button">Reset</span>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>

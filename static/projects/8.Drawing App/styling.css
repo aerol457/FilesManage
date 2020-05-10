@@ -1,0 +1,83 @@
+body {
+    font-family: monospace;
+    background: url(images/paintbg.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title {
+    background: linear-gradient(white, blue);
+    padding: 10px 32px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+
+.input {
+    position: relative;
+}
+
+.circle {
+    background: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 54%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.input-thick {
+    margin-top: 53px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.paint {
+    width: 500px;
+    height: 350px;
+    background: white;
+    cursor: crosshair;
+}
+
+
+
+.button {
+    color: white;
+    background: #59D6DC;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: white;
+    background: rgba(89, 214, 220, 0.808);
+    padding: 10px 20px;
+}
+
+.eraseMode {
+    background: red;
+
+}

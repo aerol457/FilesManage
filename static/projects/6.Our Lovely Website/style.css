@@ -1,0 +1,138 @@
+
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+.navbar {
+    position: fixed !important;
+    background: rgba(12, 31, 60, 0.7);
+    height: 50px;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar .navbar-text {
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.navbar a:hover,
+a:active {
+    color: rgba(0, 0, 255, 0.8);
+    background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(12, 31, 60));
+}
+.navbar .nav-link.active{
+    color: rgba(0, 0, 255, 0.8);
+    background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(12, 31, 60));
+}
+.jumbotron {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 10;
+
+}
+
+.container h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.container h6 {
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+
+.container .btn {
+    background: rgb(0, 162, 255);
+}
+#about{
+    margin: 0px 140px;
+}
+.aboutImage {
+    margin-bottom: 38px;
+    width: 50%;
+    height: 105px;
+    object-fit: scale-down;
+}
+
+.row {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    margin: 250px;
+}
+#carouselExampleCaptions {
+    margin-top: 250px;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 400px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+#carouselExampleCaptions .carousel-item {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+@media (max-device-width:768px){
+    body{
+        background: url(https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706__480.jpg) center center fixed;
+        background-size: cover;
+    }
+    #myVideo{
+        display: none;   
+    }
+    .navbar .navbar-text {
+        font-size: 10px;
+    }
+    .navbar .navbar-toggler{
+        border: 1px solid black;
+    }
+    .container h1 {
+        margin:40px 20px; 
+        font-size: 35px;
+    }
+    
+    .container h6 {
+        font-size: 15px;
+    }
+    .aboutImage {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .row{
+        margin: 0px;
+        font-size: 15px;
+    }
+    .row p{
+        margin-bottom: 3rem;
+    }
+    #about{
+        margin: 50px 40px;
+    }
+    #carouselExampleCaptions .carousel-item img {
+        height: 200px;
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    #carouselExampleCaptions .carousel-item {
+        text-align: center;
+        margin-bottom: 30px;
+        color: white;
+    }
+    #carouselExampleCaptions {
+        margin-top: 50px;
+    }
+    
+    
+}
